@@ -1,0 +1,1104 @@
+[
+  {
+    "files": [
+      {
+        "common": true,
+        "extension": "asf",
+        "mime_types": [
+          "video/x-ms-asf"
+        ]
+      }
+    ],
+    "name": "Advanced Systems Format File",
+    "categories": [
+      "video"
+    ],
+    "tags": []
+  },
+  {
+    "files": [
+      {
+        "common": true,
+        "extension": "mov",
+        "mime_types": [
+          "video/quicktime"
+        ]
+      },
+      {
+        "common": true,
+        "extension": "qt",
+        "mime_types": [
+          "video/quicktime"
+        ]
+      },
+      {
+        "common": true,
+        "extension": "movie",
+        "mime_types": [
+          "video/x-sgi-movie"
+        ]
+      }
+    ],
+    "name": "Apple Quick Time Movie",
+    "categories": [
+      "video"
+    ],
+    "tags": []
+  },
+  {
+    "files": [
+      {
+        "common": true,
+        "extension": "au",
+        "mime_types": [
+          "audio/basic"
+        ]
+      }
+    ],
+    "name": "Audio File",
+    "categories": [
+      "audio"
+    ],
+    "tags": []
+  },
+  {
+    "files": [
+      {
+        "common": true,
+        "extension": "aif",
+        "mime_types": [
+          "audio/x-aiff"
+        ]
+      },
+      {
+        "common": true,
+        "extension": "aiff",
+        "mime_types": [
+          "audio/x-aiff"
+        ]
+      }
+    ],
+    "name": "Audio Interchange File Format",
+    "categories": [
+      "audio"
+    ],
+    "tags": []
+  },
+  {
+    "files": [
+      {
+        "common": true,
+        "extension": "avi",
+        "mime_types": [
+          "video/x-msvideo"
+        ]
+      }
+    ],
+    "name": "Audio Video Interleave File",
+    "categories": [
+      "video"
+    ],
+    "tags": []
+  },
+  {
+    "files": [
+      {
+        "common": true,
+        "extension": "bmp",
+        "mime_types": [
+          "image/bmp",
+          "image/x-ms-bmp"
+        ]
+      },
+      {
+        "common": false,
+        "extension": "dib",
+        "mime_types": []
+      }
+    ],
+    "tags": [
+      "raster"
+    ],
+    "name": "Bitmap",
+    "categories": [
+      "image"
+    ]
+  },
+  {
+    "files": [
+      {
+        "common": true,
+        "extension": "aifc",
+        "mime_types": [
+          "audio/x-aiff"
+        ]
+      }
+    ],
+    "name": "Compressed Audio Interchange File",
+    "categories": [
+      "audio"
+    ],
+    "tags": []
+  },
+  {
+    "files": [
+      {
+        "common": true,
+        "extension": "csv",
+        "mime_types": [
+          "text/csv"
+        ]
+      }
+    ],
+    "name": "Comma-separated Values",
+    "categories": [
+      "spreadsheet",
+      "document"
+    ],
+    "tags": []
+  },
+  {
+    "files": [
+      {
+        "common": true,
+        "extension": "gif",
+        "mime_types": [
+          "image/gif"
+        ]
+      }
+    ],
+    "tags": [
+      "raster",
+      "web"
+    ],
+    "name": "Graphic Interchange Format",
+    "categories": [
+      "image"
+    ]
+  },
+  {
+    "files": [
+      {
+        "common": true,
+        "extension": "ico",
+        "mime_types": [
+          "image/x-icon",
+          "image/vnd.microsoft.icon"
+        ]
+      }
+    ],
+    "tags": [
+      "raster"
+    ],
+    "name": "Icon",
+    "categories": [
+      "image"
+    ]
+  },
+  {
+    "files": [
+      {
+        "common": false,
+        "extension": "jfif",
+        "mime_types": [
+          "image/pipeg"
+        ]
+      }
+    ],
+    "name": "JPEG File Interchange Format",
+    "categories": [
+      "image"
+    ],
+    "tags": []
+  },
+  {
+    "files": [
+      {
+        "common": false,
+        "extension": "jpe",
+        "mime_types": [
+          "image/jpeg"
+        ]
+      },
+      {
+        "common": true,
+        "extension": "jpeg",
+        "mime_types": [
+          "image/jpeg"
+        ]
+      },
+      {
+        "common": true,
+        "extension": "jpg",
+        "mime_types": [
+          "image/jpeg"
+        ]
+      }
+    ],
+    "tags": [
+      "raster",
+      "web"
+    ],
+    "name": "JPEG Image",
+    "categories": [
+      "image"
+    ]
+  },
+  {
+    "name": "Keynote",
+    "tags": [
+      "apple",
+      "keynote"
+    ],
+    "files": [
+      {
+        "common": true,
+        "extension": "key",
+        "mime_types": []
+      },
+      {
+        "common": true,
+        "extension": "key-tef",
+        "mime_types": []
+      },
+      {
+        "common": false,
+        "extension": "kth",
+        "mime_types": []
+      },
+      {
+        "common": false,
+        "extension": "apxl",
+        "mime_types": []
+      }
+    ],
+    "categories": [
+      "presentation",
+      "document"
+    ]
+  },
+  {
+    "files": [
+      {
+        "common": true,
+        "extension": "mp3",
+        "mime_types": [
+          "audio/mpeg",
+          "audio/mp3"
+        ]
+      }
+    ],
+    "name": "MP3 File",
+    "categories": [
+      "audio"
+    ],
+    "tags": []
+  },
+  {
+    "files": [
+      {
+        "common": false,
+        "extension": "mpv2",
+        "mime_types": [
+          "video/mpeg"
+        ]
+      }
+    ],
+    "name": "MPEG 2 Video Stream",
+    "categories": [
+      "video"
+    ],
+    "tags": []
+  },
+  {
+    "files": [
+      {
+        "common": true,
+        "extension": "mp4",
+        "mime_types": [
+          "video/mp4"
+        ]
+      }
+    ],
+    "name": "MPEG 4",
+    "categories": [
+      "video"
+    ],
+    "tags": []
+  },
+  {
+    "files": [
+      {
+        "common": false,
+        "extension": "mpe",
+        "mime_types": [
+          "video/mpeg"
+        ]
+      },
+      {
+        "common": true,
+        "extension": "mpeg",
+        "mime_types": [
+          "video/mpeg"
+        ]
+      },
+      {
+        "common": true,
+        "extension": "mpg",
+        "mime_types": [
+          "video/mpeg"
+        ]
+      }
+    ],
+    "name": "MPEG Movie File",
+    "categories": [
+      "video"
+    ],
+    "tags": []
+  },
+  {
+    "files": [
+      {
+        "common": true,
+        "extension": "rmi",
+        "mime_types": [
+          "audio/mid",
+          "audio/midi"
+        ]
+      }
+    ],
+    "name": "Media Processing Server Studio",
+    "categories": [
+      "audio"
+    ],
+    "tags": []
+  },
+  {
+    "name": "Microsoft Excel",
+    "tags": [
+      "excel"
+    ],
+    "files": [
+      {
+        "common": true,
+        "extension": "xls",
+        "mime_types": [
+          "application/vnd.ms-excel"
+        ]
+      },
+      {
+        "common": true,
+        "extension": "xlsx",
+        "mime_types": [
+          "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        ]
+      },
+      {
+        "common": true,
+        "extension": "xlt",
+        "mime_types": [
+          "application/vnd.ms-excel"
+        ]
+      },
+      {
+        "common": true,
+        "extension": "xltx",
+        "mime_types": [
+          "application/vnd.openxmlformats-officedocument.spreadsheetml.template"
+        ]
+      },
+      {
+        "common": true,
+        "extension": "xlw",
+        "mime_types": [
+          "application/vnd.ms-excel"
+        ]
+      },
+      {
+        "common": false,
+        "extension": "xla",
+        "mime_types": [
+          "application/vnd.ms-excel"
+        ]
+      },
+      {
+        "common": false,
+        "extension": "xlsm",
+        "mime_types": [
+          "application/vnd.ms-excel.sheet.macroenabled.12"
+        ]
+      },
+      {
+        "common": false,
+        "extension": "xlsb",
+        "mime_types": [
+          "application/vnd.ms-excel.sheet.binary.macroenabled.12"
+        ]
+      },
+      {
+        "common": false,
+        "extension": "xltm",
+        "mime_types": [
+          "application/vnd.ms-excel.template.macroenabled.12"
+        ]
+      },
+      {
+        "common": false,
+        "extension": "xlam",
+        "mime_types": [
+          "application/vnd.ms-excel.addin.macroenabled.12"
+        ]
+      }
+    ],
+    "categories": [
+      "spreadsheet",
+      "document"
+    ]
+  },
+  {
+    "name": "Microsoft PowerPoint",
+    "tags": [
+      "powerpoint"
+    ],
+    "files": [
+      {
+        "common": true,
+        "extension": "ppt",
+        "mime_types": [
+          "application/vnd.ms-powerpoint"
+        ]
+      },
+      {
+        "common": true,
+        "extension": "pptx",
+        "mime_types": [
+          "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+        ]
+      },
+      {
+        "common": true,
+        "extension": "pps",
+        "mime_types": [
+          "application/vnd.ms-powerpoint"
+        ]
+      },
+      {
+        "common": true,
+        "extension": "ppsx",
+        "mime_types": [
+          "application/vnd.openxmlformats-officedocument.presentationml.slideshow"
+        ]
+      },
+      {
+        "common": false,
+        "extension": "ppa",
+        "mime_types": []
+      },
+      {
+        "common": false,
+        "extension": "ppam",
+        "mime_types": [
+          "application/vnd.ms-powerpoint.addin.macroenabled.12"
+        ]
+      },
+      {
+        "common": false,
+        "extension": "pptm",
+        "mime_types": [
+          "application/vnd.ms-powerpoint.presentation.macroenabled.12"
+        ]
+      },
+      {
+        "common": false,
+        "extension": "ppsm",
+        "mime_types": [
+          "application/vnd.ms-powerpoint.slideshow.macroenabled.12"
+        ]
+      },
+      {
+        "common": false,
+        "extension": "potm",
+        "mime_types": [
+          "application/vnd.ms-powerpoint.template.macroenabled.12"
+        ]
+      }
+    ],
+    "categories": [
+      "presentation",
+      "document"
+    ]
+  },
+  {
+    "name": "Microsoft Word",
+    "tags": [
+      "word"
+    ],
+    "files": [
+      {
+        "common": true,
+        "extension": "doc",
+        "mime_types": [
+          "application/msword"
+        ]
+      },
+      {
+        "common": true,
+        "extension": "docx",
+        "mime_types": [
+          "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        ]
+      },
+      {
+        "common": true,
+        "extension": "dot",
+        "mime_types": [
+          "application/msword"
+        ]
+      },
+      {
+        "common": true,
+        "extension": "dotx",
+        "mime_types": [
+          "application/vnd.openxmlformats-officedocument.wordprocessingml.template"
+        ]
+      },
+      {
+        "common": false,
+        "extension": "dotm",
+        "mime_types": [
+          "application/vnd.ms-word.template.macroenabled.12"
+        ]
+      },
+      {
+        "common": false,
+        "extension": "docm",
+        "mime_types": [
+          "application/vnd.ms-word.document.macroenabled.12"
+        ]
+      },
+      {
+        "common": false,
+        "extension": "dotm",
+        "mime_types": [
+          "application/vnd.ms-word.template.macroenabled.12"
+        ]
+      },
+      {
+        "common": false,
+        "extension": "word",
+        "mime_types": []
+      },
+      {
+        "common": false,
+        "extension": "w6w",
+        "mime_types": []
+      }
+    ],
+    "categories": [
+      "word_processing",
+      "document"
+    ]
+  },
+  {
+    "files": [
+      {
+        "common": true,
+        "extension": "mid",
+        "mime_types": [
+          "audio/mid",
+          "audio/midi"
+        ]
+      }
+    ],
+    "name": "Midi File",
+    "categories": [
+      "audio"
+    ],
+    "tags": []
+  },
+  {
+    "name": "Numbers",
+    "tags": [
+      "apple",
+      "numbers"
+    ],
+    "files": [
+      {
+        "common": true,
+        "extension": "numbers",
+        "mime_types": [
+          "application/vnd.apple.numbers"
+        ]
+      }
+    ],
+    "categories": [
+      "spreadsheet",
+      "document"
+    ]
+  },
+  {
+    "name": "OpenOffice Calc",
+    "tags": [
+      "openoffice",
+      "calc"
+    ],
+    "files": [
+      {
+        "common": true,
+        "extension": "ods",
+        "mime_types": [
+          "application/vnd.oasis.opendocument.spreadsheet"
+        ]
+      },
+      {
+        "common": true,
+        "extension": "ots",
+        "mime_types": [
+          "application/vnd.oasis.opendocument.spreadsheet-template"
+        ]
+      }
+    ],
+    "categories": [
+      "spreadsheet",
+      "document"
+    ]
+  },
+  {
+    "name": "OpenOffice Impress",
+    "tags": [
+      "openoffice",
+      "impress"
+    ],
+    "files": [
+      {
+        "common": true,
+        "extension": "odp",
+        "mime_types": [
+          "application/vnd.oasis.opendocument.presentation"
+        ]
+      }
+    ],
+    "categories": [
+      "presentation",
+      "document"
+    ]
+  },
+  {
+    "name": "OpenOffice Writer",
+    "tags": [
+      "openoffice",
+      "writer"
+    ],
+    "files": [
+      {
+        "common": true,
+        "extension": "odt",
+        "mime_types": [
+          "application/vnd.oasis.opendocument.text"
+        ]
+      },
+      {
+        "common": true,
+        "extension": "ott",
+        "mime_types": [
+          "application/vnd.oasis.opendocument.text-template"
+        ]
+      },
+      {
+        "common": false,
+        "extension": "oth",
+        "mime_types": [
+          "application/vnd.oasis.opendocument.text-web"
+        ]
+      },
+      {
+        "common": false,
+        "extension": "odm",
+        "mime_types": [
+          "application/vnd.oasis.opendocument.text-master"
+        ]
+      }
+    ],
+    "categories": [
+      "word_processing",
+      "document"
+    ]
+  },
+  {
+    "name": "Pages",
+    "tags": [
+      "apple",
+      "pages"
+    ],
+    "files": [
+      {
+        "common": true,
+        "extension": "page",
+        "mime_types": []
+      }
+    ],
+    "categories": [
+      "word_processing",
+      "document"
+    ]
+  },
+  {
+    "files": [
+      {
+        "common": false,
+        "extension": "pbm",
+        "mime_types": [
+          "image/x-portable-bitmap"
+        ]
+      }
+    ],
+    "name": "Portable Bitmap Image",
+    "categories": [
+      "image"
+    ],
+    "tags": []
+  },
+  {
+    "name": "Portable Document Format",
+    "tags": [
+      "pdf"
+    ],
+    "files": [
+      {
+        "common": true,
+        "extension": "pdf",
+        "mime_types": [
+          "application/pdf"
+        ]
+      }
+    ],
+    "categories": [
+      "document"
+    ]
+  },
+  {
+    "files": [
+      {
+        "common": false,
+        "extension": "pgm",
+        "mime_types": [
+          "image/x-portable-graymap"
+        ]
+      }
+    ],
+    "name": "Portable Graymap Image",
+    "categories": [
+      "image"
+    ],
+    "tags": []
+  },
+  {
+    "name": "Portable Network Graphics",
+    "tags": [
+      "web"
+    ],
+    "files": [
+      {
+        "common": true,
+        "extension": "png",
+        "mime_types": [
+          "image/png"
+        ]
+      }
+    ],
+    "categories": [
+      "image"
+    ]
+  },
+  {
+    "files": [
+      {
+        "common": false,
+        "extension": "ppm",
+        "mime_types": [
+          "image/x-portable-pixmap"
+        ]
+      }
+    ],
+    "tags": [
+      "raster"
+    ],
+    "name": "Portable Pixmap Image",
+    "categories": [
+      "image"
+    ]
+  },
+  {
+    "files": [
+      {
+        "common": false,
+        "extension": "rgb",
+        "mime_types": [
+          "image/x-rgb"
+        ]
+      }
+    ],
+    "name": "RGB Bitmap",
+    "categories": [
+      "image"
+    ],
+    "tags": []
+  },
+  {
+    "files": [
+      {
+        "common": false,
+        "extension": "ra",
+        "mime_types": [
+          "audio/x-pn-realaudio",
+          "audio/x-realaudio"
+        ]
+      }
+    ],
+    "name": "Real Audio File",
+    "categories": [
+      "audio"
+    ],
+    "tags": []
+  },
+  {
+    "files": [
+      {
+        "common": false,
+        "extension": "ram",
+        "mime_types": [
+          "audio/x-pn-realaudio"
+        ]
+      }
+    ],
+    "name": "Real Audio Metadata File",
+    "categories": [
+      "audio"
+    ],
+    "tags": []
+  },
+  {
+    "name": "Rich Text Format",
+    "tags": [],
+    "files": [
+      {
+        "common": true,
+        "extension": "rtf",
+        "mime_types": [
+          "application/rtf",
+          "text/rtf"
+        ]
+      }
+    ],
+    "categories": [
+      "word_processing",
+      "document"
+    ]
+  },
+  {
+    "files": [
+      {
+        "common": true,
+        "extension": "svg",
+        "mime_types": [
+          "image/svg+xml"
+        ]
+      }
+    ],
+    "tags": [
+      "vector",
+      "web"
+    ],
+    "name": "Scalable Vector Graphic",
+    "categories": [
+      "image"
+    ]
+  },
+  {
+    "files": [
+      {
+        "common": false,
+        "extension": "snd",
+        "mime_types": [
+          "audio/basic"
+        ]
+      }
+    ],
+    "name": "Sound File",
+    "categories": [
+      "audio"
+    ],
+    "tags": []
+  },
+  {
+    "files": [
+      {
+        "common": true,
+        "extension": "tsv",
+        "mime_types": [
+          "text/tab-separated-values"
+        ]
+      },
+      {
+        "common": false,
+        "extension": "tab",
+        "mime_types": [
+          "text/tab-separated-values"
+        ]
+      }
+    ],
+    "name": "Tab-separated Values",
+    "categories": [
+      "spreadsheet",
+      "document"
+    ],
+    "tags": []
+  },
+  {
+    "files": [
+      {
+        "common": true,
+        "extension": "txt",
+        "mime_types": [
+          "text/plain"
+        ]
+      },
+      {
+        "common": true,
+        "extension": "text",
+        "mime_types": [
+          "text/plain"
+        ]
+      }
+    ],
+    "name": "Text File",
+    "categories": [
+      "word_processing",
+      "document"
+    ],
+    "tags": []
+  },
+  {
+    "files": [
+      {
+        "common": true,
+        "extension": "tif",
+        "mime_types": [
+          "image/tiff"
+        ]
+      },
+      {
+        "common": true,
+        "extension": "tiff",
+        "mime_types": [
+          "image/tiff"
+        ]
+      }
+    ],
+    "tags": [
+      "raster"
+    ],
+    "name": "TIFF Image",
+    "categories": [
+      "image"
+    ]
+  },
+  {
+    "files": [
+      {
+        "common": true,
+        "extension": "wav",
+        "mime_types": [
+          "audio/x-wav",
+          "audio/wav",
+          "audio/wave"
+        ]
+      }
+    ],
+    "name": "WAVE Audio File",
+    "categories": [
+      "audio"
+    ],
+    "tags": []
+  },
+  {
+    "files": [
+      {
+        "common": true,
+        "extension": "webm",
+        "mime_types": [
+          "video/webm"
+        ]
+      }
+    ],
+    "name": "WebM",
+    "categories": [
+      "video"
+    ],
+    "tags": []
+  },
+  {
+    "files": [
+      {
+        "common": true,
+        "extension": "weba",
+        "mime_types": [
+          "audio/webm"
+        ]
+      }
+    ],
+    "name": "WebM",
+    "categories": [
+      "audio"
+    ],
+    "tags": []
+  },
+  {
+    "files": [
+      {
+        "common": true,
+        "extension": "webp",
+        "mime_types": [
+          "image/webp"
+        ]
+      }
+    ],
+    "name": "WebP",
+    "categories": [
+      "image"
+    ],
+    "tags": ["raster"]
+  },
+  {
+    "files": [
+      {
+        "common": false,
+        "extension": "xbm",
+        "mime_types": [
+          "image/x-xbitmap"
+        ]
+      }
+    ],
+    "name": "X11 Bitmap",
+    "categories": [
+      "image"
+    ],
+    "tags": []
+  },
+  {
+    "files": [
+      {
+        "common": false,
+        "extension": "xpm",
+        "mime_types": [
+          "image/x-xpixmap"
+        ]
+      }
+    ],
+    "name": "X11 Pixmap",
+    "categories": [
+      "image"
+    ],
+    "tags": []
+  }
+]
