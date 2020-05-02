@@ -27,9 +27,9 @@ FileGroups.video.mime_types  # ["video/x-ms-asf", "video/quicktime", ... ]
 
 Images can be filtered on by raster, vector, or web:
 ```rb
-FileGroups.image.web     # ["gif", "jpeg", "jpg", "png", "svg", "webp"]
-FileGroups.image.raster  # ["bmp", "gif", "ico", "jpeg", "jpg", "tif", "tiff", "webp"]
-FileGroups.image.vector  # ["svg"]
+FileGroups.image.web.extensions     # ["gif", "jpeg", "jpg", "png", "svg", "webp"]
+FileGroups.image.raster.extensions  # ["bmp", "gif", "ico", "jpeg", "jpg", "tif", "tiff", "webp"]
+FileGroups.image.vector.extensions  # ["svg"]
 ```
 
 For a complete list pass in `true` to any of these methods:
