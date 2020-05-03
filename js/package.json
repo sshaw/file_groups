@@ -4,7 +4,7 @@
   "description": "Common file extensions and MIME types, grouped by application and type. Useful when you need to process or restrict processing to certain types of files.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/main.js"
   },
   "repository": "sshaw/file_groups",
   "keywords": [
