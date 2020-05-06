@@ -3,6 +3,38 @@
     "files": [
       {
         "common": true,
+        "extension": "ai",
+        "mime_types": [
+          "application/postscript"
+        ]
+      }
+    ],
+    "name": "Adobe Illustrator",
+    "categories": [
+      "graphics_editor"
+    ],
+    "tags": ["vector"]
+  },
+  {
+    "files": [
+      {
+        "common": true,
+        "extension": "psd",
+        "mime_types": [
+          "image/vnd.adobe.photoshop"
+        ]
+      }
+    ],
+    "name": "Adobe Photoshop",
+    "categories": [
+      "graphics_editor"
+    ],
+    "tags": ["raster"]
+  },
+  {
+    "files": [
+      {
+        "common": true,
         "extension": "asf",
         "mime_types": [
           "video/x-ms-asf"
@@ -156,6 +188,43 @@
       "document"
     ],
     "tags": []
+  },
+  {
+    "files": [
+      {
+        "common": true,
+        "extension": "eps",
+        "mime_types": [
+          "application/postscript"
+        ]
+      },
+      {
+        "common": false,
+        "extension": "epsf",
+        "mime_types": []
+      }
+    ],
+    "name": "Encapsulated PostScript",
+    "categories": [
+      "graphics_editor"
+    ],
+    "tags": ["vector"]
+  },
+  {
+    "files": [
+      {
+        "common": true,
+        "extension": "xcf",
+        "mime_types": [
+          "image/x-xcf"
+        ]
+      }
+    ],
+    "name": "GIMP (GNU Image Manipulation Program)",
+    "categories": [
+      "graphics_editor"
+    ],
+    "tags": ["raster"]
   },
   {
     "files": [
@@ -827,6 +896,22 @@
     "categories": [
       "image"
     ]
+  },
+  {
+    "files": [
+      {
+        "common": true,
+        "extension": "ps",
+        "mime_types": [
+          "application/postscript"
+        ]
+      }
+    ],
+    "name": "PostScript",
+    "categories": [
+      "graphics_editor"
+    ],
+    "tags": ["vector"]
   },
   {
     "files": [
