@@ -12,11 +12,11 @@ module FileGroups
       o = Object.new
 
       def o.extensions(all = false)
-        (all ? <%= Util.extensions(record["files"], false) %> : <%= Util.extensions(record["files"], true) %>).dup
+        (all ? <%= Util.extensions(record["files"], false) %> : <%= Util.extensions(record["files"], true) %>)
       end
 
       def o.mime_types(all = false)
-        (all ? <%= Util.mime_types(record["files"], false) %> : <%= Util.mime_types(record["files"], true) %>).dup
+        (all ? <%= Util.mime_types(record["files"], false) %> : <%= Util.mime_types(record["files"], true) %>)
       end
 
       <% record["tags"] && record["tags"].each do |tag, files| -%>
@@ -24,11 +24,11 @@ module FileGroups
           tag = Object.new
 
           def tag.extensions(all = false)
-            (all ? <%= Util.extensions(files, false) %> : <%= Util.extensions(files, true) %>).dup
+            (all ? <%= Util.extensions(files, false) %> : <%= Util.extensions(files, true) %>)
           end
 
           def tag.mime_types(all = false)
-            (all ? <%= Util.mime_types(files, false) %> : <%= Util.mime_types(files, true) %>).dup
+            (all ? <%= Util.mime_types(files, false) %> : <%= Util.mime_types(files, true) %>)
           end
 
           tag
