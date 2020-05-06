@@ -598,6 +598,45 @@
     ]
   },
   {
+    "name": "Microsoft Visio",
+    "tags": [
+      "visio"
+    ],
+    "files": [
+      {
+        "common": true,
+        "extension": "vsd",
+        "mime_types": [
+          "application/vnd.visio"
+        ]
+      },
+      {
+        "common": true,
+        "extension": "vst",
+        "mime_types": [
+          "application/vnd.visio"
+        ]
+      },
+      {
+        "common": false,
+        "extension": "vsw",
+        "mime_types": [
+          "application/vnd.visio"
+        ]
+      },
+      {
+        "common": false,
+        "extension": "vss",
+        "mime_types": [
+          "application/vnd.visio"
+        ]
+      }
+    ],
+    "categories": [
+      "diagramming"
+    ]
+  },
+  {
     "name": "Microsoft Word",
     "tags": [
       "word"
