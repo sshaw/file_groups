@@ -316,7 +316,6 @@
   {
     "name": "Keynote",
     "tags": [
-      "apple",
       "keynote"
     ],
     "files": [
@@ -727,7 +726,6 @@
   {
     "name": "Numbers",
     "tags": [
-      "apple",
       "numbers"
     ],
     "files": [
@@ -747,7 +745,6 @@
   {
     "name": "OpenOffice Calc",
     "tags": [
-      "openoffice",
       "calc"
     ],
     "files": [
@@ -774,7 +771,6 @@
   {
     "name": "OpenOffice Impress",
     "tags": [
-      "openoffice",
       "impress"
     ],
     "files": [
@@ -794,7 +790,6 @@
   {
     "name": "OpenOffice Writer",
     "tags": [
-      "openoffice",
       "writer"
     ],
     "files": [
@@ -835,7 +830,6 @@
   {
     "name": "Pages",
     "tags": [
-      "apple",
       "pages"
     ],
     "files": [
