@@ -20,11 +20,11 @@ an [ERB template](https://en.wikipedia.org/wiki/ERuby) for the given language.
 
 To generate a library run the following from the project's root directory:
 ```
-./generate.sh template
+./generate.sh language_directory
 ```
 
-Where `template` is the desired programming language's ERB template.
-The result is output to stdout.
+Where `language_directory` is the desired programming language's directory.
+This must contain a file named `template.erb` which is used to generate the source code.
 
 ## Author
 

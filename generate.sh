@@ -1,15 +1,31 @@
 #!/bin/bash
 
-template="$1"
+error()
+{
+    message="$1"
+    shift
 
-if [ -z "$template" ]; then
-   echo "usage: $0 template"
-   exit 1
+    echo "$message" >&2
+    exit ${1:-1}
+}
+
+root="$1"
+
+if [ -z "$root" ]; then
+   error "usage: $0 directory"
 fi
 
-if [ ! -f "$template" ]; then
-   echo "$template does not exist"
-   exit 1
+if [ ! -d "$root" ]; then
+   error "'$root' is not a valid directory"
 fi
 
-RUBYLIB=lib erb -r util -T - json=file_groups.json "$template"
+if [ "$root" == "js" ]; then
+    output=index.js
+elif [ "$root" == "ruby" ]; then
+    output=lib/file_groups.rb
+else
+    error "unknown language '$root'" 2
+fi
+
+echo "Generating code from $root/template.erb to $root/$output"
+RUBYLIB=lib erb -r util -T - json=file_groups.json "$root/template.erb" > "$root/$output"
