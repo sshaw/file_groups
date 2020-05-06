@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Skye Shaw"]
   spec.email         = ["skye.shaw@gmail.com"]
 
-  spec.summary       = %q{Common file extensions and MIME types, grouped by application and type}
-  spec.description   = %q{Common file extensions and MIME types, grouped by application and type. Useful when you need to process or restrict processing to certain types of files.}
+  spec.summary       = %q{File extensions and MIME types, grouped by application and type}
+  spec.description   = %q{File extensions and MIME types, grouped by application and type. Useful when you need to process or restrict processing to certain types of files.}
   spec.homepage      = "https://github.com/sshaw/file_groups/tree/master/ruby"
   spec.license       = "MIT"
 

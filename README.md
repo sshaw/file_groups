@@ -1,6 +1,6 @@
 # File Groups
 
-Common file extensions and MIME types, grouped by application and type. Useful when you need to process or restrict processing to certain types of files.
+File extensions and MIME types, grouped by application and type. Useful when you need to process or restrict processing to certain types of files.
 
 The groups are defined in `file_groups.json`.
 
