@@ -22,8 +22,14 @@ Gem::Specification.new do |spec|
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
+  spec.metadata      = {
+    "changelog_uri" => "https://github.com/sshaw/file_groups/blob/master/Changes",
+    "bug_tracker_uri" => "https://github.com/sshaw/file_groups/issues",
+    "documentation_uri" => "http://rdoc.info/gems/file_groups",
+    "source_code_uri"  => "https://github.com/sshaw/file_groups",
+  }
 
   spec.add_development_dependency "bundler", "~> 1.16"
-  spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "rake", ">= 12.3.3"
   spec.add_development_dependency "rspec", "~> 3.0"
 end
