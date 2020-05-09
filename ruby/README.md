@@ -1,6 +1,6 @@
 # `FileGroups`
 
-File extensions and MIME types, grouped by application and type.
+File extensions and media types, grouped by application and type.
 Useful when you need to process or restrict processing to certain types of files.
 
 ## Usage
@@ -55,7 +55,7 @@ FileGroups.spreadsheet.excel.media_types   # ["application/vnd.ms-excel", ... ]
 
 Or for OpenOffice:
 ```rb
-FileGroups.spreadsheet.openoffice.extensions  # ["ods", "ots"]
+FileGroups.spreadsheet.calc.extensions  # ["ods", "ots"]
 ```
 
 By default these only return common extensions, to return all:
@@ -63,19 +63,9 @@ By default these only return common extensions, to return all:
 FileGroups.spreadsheet.excel.extensions(true) # ["xls", "xlsx", "xlt", "xltx", ... ]
 ```
 
-### Office Productivity Files
+### All Filters
 
-Retrieve a list of file extensions or MIME types used by common office software
-
-```rb
-require "file_groups"
-FileGroups.document.extensions     # ["csv", "key", "key-tef", "xls", "xlsx", "xlt ... ]
-FileGroups.document.media_types     # ["text/csv", "application/vnd.ms-excel", ... ]
-```
-
-### Other Filters
-
-See the documentation for more.
+For a complete lists see the documentation
 
 ## Contributing
 

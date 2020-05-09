@@ -160,6 +160,20 @@
     "files": [
       {
         "common": true,
+        "extension": "cdr",
+        "media_types": []
+      }
+    ],
+    "name": "CorelDRAW",
+    "categories": [
+      "graphics_editor"
+    ],
+    "tags": ["vector"]
+  },
+  {
+    "files": [
+      {
+        "common": true,
         "extension": "aifc",
         "media_types": [
           "audio/x-aiff"
@@ -1084,6 +1098,20 @@
       "audio"
     ],
     "tags": []
+  },
+  {
+    "files": [
+      {
+        "common": true,
+        "extension": "sketch",
+        "media_types": []
+      }
+    ],
+    "name": "Sketch",
+    "categories": [
+      "graphics_editor"
+    ],
+    "tags": ["vector"]
   },
   {
     "files": [

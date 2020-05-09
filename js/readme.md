@@ -1,6 +1,6 @@
 # `file-groups`
 
-File extensions and MIME types, grouped by application and type.
+File extensions and media types, grouped by application and type.
 Useful when you need to process or restrict processing to certain types of files.
 
 ## Usage
@@ -55,7 +55,7 @@ fileGroups.spreadsheet.excel.mediaTypes();   // ["application/vnd.ms-excel", ...
 
 Or for OpenOffice:
 ```js
-fileGroups.spreadsheet.openoffice.extensions();  // ["ods", "ots"]
+fileGroups.spreadsheet.calc.extensions();  // ["ods", "ots"]
 ```
 
 By default these only return common extensions, to return all:
