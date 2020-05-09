@@ -214,6 +214,20 @@
     "files": [
       {
         "common": true,
+        "extension": "gan",
+        "mime_types": []
+      }
+    ],
+    "name": "GanttProject",
+    "categories": [
+      "project_management"
+    ],
+    "tags": []
+  },
+  {
+    "files": [
+      {
+        "common": true,
         "extension": "xcf",
         "mime_types": [
           "image/x-xcf"
@@ -594,6 +608,29 @@
     "categories": [
       "presentation",
       "document"
+    ]
+  },
+  {
+    "name": "Microsoft Project",
+    "tags": [],
+    "files": [
+      {
+        "common": true,
+        "extension": "mpp",
+        "mime_types": [
+          "application/vnd.ms-project"
+        ]
+      },
+      {
+        "common": true,
+        "extension": "mpt",
+        "mime_types": [
+          "application/vnd.ms-project"
+        ]
+      }
+    ],
+    "categories": [
+      "project_management"
     ]
   },
   {
