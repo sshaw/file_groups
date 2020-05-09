@@ -33,9 +33,9 @@ module Util
 
     def mime_types(files, common)
       if common
-        files.select { |f| f["common"] }.flat_map { |f| f["mime_types"] }.uniq
+        files.select { |f| f["common"] }.flat_map { |f| f["media_types"] }.uniq
       else
-        files.flat_map { |f| f["mime_types"] }.uniq
+        files.flat_map { |f| f["media_types"] }.uniq
       end
     end
   end

@@ -4,7 +4,7 @@
       {
         "common": true,
         "extension": "ai",
-        "mime_types": [
+        "media_types": [
           "application/postscript"
         ]
       }
@@ -20,7 +20,7 @@
       {
         "common": true,
         "extension": "psd",
-        "mime_types": [
+        "media_types": [
           "image/vnd.adobe.photoshop"
         ]
       }
@@ -36,7 +36,7 @@
       {
         "common": true,
         "extension": "asf",
-        "mime_types": [
+        "media_types": [
           "video/x-ms-asf"
         ]
       }
@@ -52,21 +52,21 @@
       {
         "common": true,
         "extension": "mov",
-        "mime_types": [
+        "media_types": [
           "video/quicktime"
         ]
       },
       {
         "common": true,
         "extension": "qt",
-        "mime_types": [
+        "media_types": [
           "video/quicktime"
         ]
       },
       {
         "common": true,
         "extension": "movie",
-        "mime_types": [
+        "media_types": [
           "video/x-sgi-movie"
         ]
       }
@@ -82,7 +82,7 @@
       {
         "common": true,
         "extension": "au",
-        "mime_types": [
+        "media_types": [
           "audio/basic"
         ]
       }
@@ -98,14 +98,14 @@
       {
         "common": true,
         "extension": "aif",
-        "mime_types": [
+        "media_types": [
           "audio/x-aiff"
         ]
       },
       {
         "common": true,
         "extension": "aiff",
-        "mime_types": [
+        "media_types": [
           "audio/x-aiff"
         ]
       }
@@ -121,7 +121,7 @@
       {
         "common": true,
         "extension": "avi",
-        "mime_types": [
+        "media_types": [
           "video/x-msvideo"
         ]
       }
@@ -137,7 +137,7 @@
       {
         "common": true,
         "extension": "bmp",
-        "mime_types": [
+        "media_types": [
           "image/bmp",
           "image/x-ms-bmp"
         ]
@@ -145,7 +145,7 @@
       {
         "common": false,
         "extension": "dib",
-        "mime_types": []
+        "media_types": []
       }
     ],
     "tags": [
@@ -161,7 +161,7 @@
       {
         "common": true,
         "extension": "aifc",
-        "mime_types": [
+        "media_types": [
           "audio/x-aiff"
         ]
       }
@@ -177,7 +177,7 @@
       {
         "common": true,
         "extension": "csv",
-        "mime_types": [
+        "media_types": [
           "text/csv"
         ]
       }
@@ -194,14 +194,14 @@
       {
         "common": true,
         "extension": "eps",
-        "mime_types": [
+        "media_types": [
           "application/postscript"
         ]
       },
       {
         "common": false,
         "extension": "epsf",
-        "mime_types": []
+        "media_types": []
       }
     ],
     "name": "Encapsulated PostScript",
@@ -215,7 +215,7 @@
       {
         "common": true,
         "extension": "gan",
-        "mime_types": []
+        "media_types": []
       }
     ],
     "name": "GanttProject",
@@ -229,7 +229,7 @@
       {
         "common": true,
         "extension": "xcf",
-        "mime_types": [
+        "media_types": [
           "image/x-xcf"
         ]
       }
@@ -245,7 +245,7 @@
       {
         "common": true,
         "extension": "gif",
-        "mime_types": [
+        "media_types": [
           "image/gif"
         ]
       }
@@ -264,7 +264,7 @@
       {
         "common": true,
         "extension": "ico",
-        "mime_types": [
+        "media_types": [
           "image/x-icon",
           "image/vnd.microsoft.icon"
         ]
@@ -283,7 +283,7 @@
       {
         "common": false,
         "extension": "jfif",
-        "mime_types": [
+        "media_types": [
           "image/pipeg"
         ]
       }
@@ -299,21 +299,21 @@
       {
         "common": false,
         "extension": "jpe",
-        "mime_types": [
+        "media_types": [
           "image/jpeg"
         ]
       },
       {
         "common": true,
         "extension": "jpeg",
-        "mime_types": [
+        "media_types": [
           "image/jpeg"
         ]
       },
       {
         "common": true,
         "extension": "jpg",
-        "mime_types": [
+        "media_types": [
           "image/jpeg"
         ]
       }
@@ -336,22 +336,22 @@
       {
         "common": true,
         "extension": "key",
-        "mime_types": []
+        "media_types": []
       },
       {
         "common": true,
         "extension": "key-tef",
-        "mime_types": []
+        "media_types": []
       },
       {
         "common": false,
         "extension": "kth",
-        "mime_types": []
+        "media_types": []
       },
       {
         "common": false,
         "extension": "apxl",
-        "mime_types": []
+        "media_types": []
       }
     ],
     "categories": [
@@ -364,7 +364,7 @@
       {
         "common": true,
         "extension": "mp3",
-        "mime_types": [
+        "media_types": [
           "audio/mpeg",
           "audio/mp3"
         ]
@@ -381,7 +381,7 @@
       {
         "common": false,
         "extension": "mpv2",
-        "mime_types": [
+        "media_types": [
           "video/mpeg"
         ]
       }
@@ -397,7 +397,7 @@
       {
         "common": true,
         "extension": "mp4",
-        "mime_types": [
+        "media_types": [
           "video/mp4"
         ]
       }
@@ -413,21 +413,21 @@
       {
         "common": false,
         "extension": "mpe",
-        "mime_types": [
+        "media_types": [
           "video/mpeg"
         ]
       },
       {
         "common": true,
         "extension": "mpeg",
-        "mime_types": [
+        "media_types": [
           "video/mpeg"
         ]
       },
       {
         "common": true,
         "extension": "mpg",
-        "mime_types": [
+        "media_types": [
           "video/mpeg"
         ]
       }
@@ -443,7 +443,7 @@
       {
         "common": true,
         "extension": "rmi",
-        "mime_types": [
+        "media_types": [
           "audio/mid",
           "audio/midi"
         ]
@@ -464,70 +464,70 @@
       {
         "common": true,
         "extension": "xls",
-        "mime_types": [
+        "media_types": [
           "application/vnd.ms-excel"
         ]
       },
       {
         "common": true,
         "extension": "xlsx",
-        "mime_types": [
+        "media_types": [
           "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
         ]
       },
       {
         "common": true,
         "extension": "xlt",
-        "mime_types": [
+        "media_types": [
           "application/vnd.ms-excel"
         ]
       },
       {
         "common": true,
         "extension": "xltx",
-        "mime_types": [
+        "media_types": [
           "application/vnd.openxmlformats-officedocument.spreadsheetml.template"
         ]
       },
       {
         "common": true,
         "extension": "xlw",
-        "mime_types": [
+        "media_types": [
           "application/vnd.ms-excel"
         ]
       },
       {
         "common": false,
         "extension": "xla",
-        "mime_types": [
+        "media_types": [
           "application/vnd.ms-excel"
         ]
       },
       {
         "common": false,
         "extension": "xlsm",
-        "mime_types": [
+        "media_types": [
           "application/vnd.ms-excel.sheet.macroenabled.12"
         ]
       },
       {
         "common": false,
         "extension": "xlsb",
-        "mime_types": [
+        "media_types": [
           "application/vnd.ms-excel.sheet.binary.macroenabled.12"
         ]
       },
       {
         "common": false,
         "extension": "xltm",
-        "mime_types": [
+        "media_types": [
           "application/vnd.ms-excel.template.macroenabled.12"
         ]
       },
       {
         "common": false,
         "extension": "xlam",
-        "mime_types": [
+        "media_types": [
           "application/vnd.ms-excel.addin.macroenabled.12"
         ]
       }
@@ -546,61 +546,61 @@
       {
         "common": true,
         "extension": "ppt",
-        "mime_types": [
+        "media_types": [
           "application/vnd.ms-powerpoint"
         ]
       },
       {
         "common": true,
         "extension": "pptx",
-        "mime_types": [
+        "media_types": [
           "application/vnd.openxmlformats-officedocument.presentationml.presentation"
         ]
       },
       {
         "common": true,
         "extension": "pps",
-        "mime_types": [
+        "media_types": [
           "application/vnd.ms-powerpoint"
         ]
       },
       {
         "common": true,
         "extension": "ppsx",
-        "mime_types": [
+        "media_types": [
           "application/vnd.openxmlformats-officedocument.presentationml.slideshow"
         ]
       },
       {
         "common": false,
         "extension": "ppa",
-        "mime_types": []
+        "media_types": []
       },
       {
         "common": false,
         "extension": "ppam",
-        "mime_types": [
+        "media_types": [
           "application/vnd.ms-powerpoint.addin.macroenabled.12"
         ]
       },
       {
         "common": false,
         "extension": "pptm",
-        "mime_types": [
+        "media_types": [
           "application/vnd.ms-powerpoint.presentation.macroenabled.12"
         ]
       },
       {
         "common": false,
         "extension": "ppsm",
-        "mime_types": [
+        "media_types": [
           "application/vnd.ms-powerpoint.slideshow.macroenabled.12"
         ]
       },
       {
         "common": false,
         "extension": "potm",
-        "mime_types": [
+        "media_types": [
           "application/vnd.ms-powerpoint.template.macroenabled.12"
         ]
       }
@@ -617,14 +617,14 @@
       {
         "common": true,
         "extension": "mpp",
-        "mime_types": [
+        "media_types": [
           "application/vnd.ms-project"
         ]
       },
       {
         "common": true,
         "extension": "mpt",
-        "mime_types": [
+        "media_types": [
           "application/vnd.ms-project"
         ]
       }
@@ -642,28 +642,28 @@
       {
         "common": true,
         "extension": "vsd",
-        "mime_types": [
+        "media_types": [
           "application/vnd.visio"
         ]
       },
       {
         "common": true,
         "extension": "vst",
-        "mime_types": [
+        "media_types": [
           "application/vnd.visio"
         ]
       },
       {
         "common": false,
         "extension": "vsw",
-        "mime_types": [
+        "media_types": [
           "application/vnd.visio"
         ]
       },
       {
         "common": false,
         "extension": "vss",
-        "mime_types": [
+        "media_types": [
           "application/vnd.visio"
         ]
       }
@@ -681,61 +681,61 @@
       {
         "common": true,
         "extension": "doc",
-        "mime_types": [
+        "media_types": [
           "application/msword"
         ]
       },
       {
         "common": true,
         "extension": "docx",
-        "mime_types": [
+        "media_types": [
           "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
         ]
       },
       {
         "common": true,
         "extension": "dot",
-        "mime_types": [
+        "media_types": [
           "application/msword"
         ]
       },
       {
         "common": true,
         "extension": "dotx",
-        "mime_types": [
+        "media_types": [
           "application/vnd.openxmlformats-officedocument.wordprocessingml.template"
         ]
       },
       {
         "common": false,
         "extension": "dotm",
-        "mime_types": [
+        "media_types": [
           "application/vnd.ms-word.template.macroenabled.12"
         ]
       },
       {
         "common": false,
         "extension": "docm",
-        "mime_types": [
+        "media_types": [
           "application/vnd.ms-word.document.macroenabled.12"
         ]
       },
       {
         "common": false,
         "extension": "dotm",
-        "mime_types": [
+        "media_types": [
           "application/vnd.ms-word.template.macroenabled.12"
         ]
       },
       {
         "common": false,
         "extension": "word",
-        "mime_types": []
+        "media_types": []
       },
       {
         "common": false,
         "extension": "w6w",
-        "mime_types": []
+        "media_types": []
       }
     ],
     "categories": [
@@ -748,7 +748,7 @@
       {
         "common": true,
         "extension": "mid",
-        "mime_types": [
+        "media_types": [
           "audio/mid",
           "audio/midi"
         ]
@@ -769,7 +769,7 @@
       {
         "common": true,
         "extension": "numbers",
-        "mime_types": [
+        "media_types": [
           "application/vnd.apple.numbers"
         ]
       }
@@ -788,14 +788,14 @@
       {
         "common": true,
         "extension": "ods",
-        "mime_types": [
+        "media_types": [
           "application/vnd.oasis.opendocument.spreadsheet"
         ]
       },
       {
         "common": true,
         "extension": "ots",
-        "mime_types": [
+        "media_types": [
           "application/vnd.oasis.opendocument.spreadsheet-template"
         ]
       }
@@ -814,7 +814,7 @@
       {
         "common": true,
         "extension": "odp",
-        "mime_types": [
+        "media_types": [
           "application/vnd.oasis.opendocument.presentation"
         ]
       }
@@ -833,28 +833,28 @@
       {
         "common": true,
         "extension": "odt",
-        "mime_types": [
+        "media_types": [
           "application/vnd.oasis.opendocument.text"
         ]
       },
       {
         "common": true,
         "extension": "ott",
-        "mime_types": [
+        "media_types": [
           "application/vnd.oasis.opendocument.text-template"
         ]
       },
       {
         "common": false,
         "extension": "oth",
-        "mime_types": [
+        "media_types": [
           "application/vnd.oasis.opendocument.text-web"
         ]
       },
       {
         "common": false,
         "extension": "odm",
-        "mime_types": [
+        "media_types": [
           "application/vnd.oasis.opendocument.text-master"
         ]
       }
@@ -873,7 +873,7 @@
       {
         "common": true,
         "extension": "page",
-        "mime_types": []
+        "media_types": []
       }
     ],
     "categories": [
@@ -886,7 +886,7 @@
       {
         "common": false,
         "extension": "pbm",
-        "mime_types": [
+        "media_types": [
           "image/x-portable-bitmap"
         ]
       }
@@ -906,7 +906,7 @@
       {
         "common": true,
         "extension": "pdf",
-        "mime_types": [
+        "media_types": [
           "application/pdf"
         ]
       }
@@ -920,7 +920,7 @@
       {
         "common": false,
         "extension": "pgm",
-        "mime_types": [
+        "media_types": [
           "image/x-portable-graymap"
         ]
       }
@@ -940,7 +940,7 @@
       {
         "common": true,
         "extension": "png",
-        "mime_types": [
+        "media_types": [
           "image/png"
         ]
       }
@@ -954,7 +954,7 @@
       {
         "common": false,
         "extension": "ppm",
-        "mime_types": [
+        "media_types": [
           "image/x-portable-pixmap"
         ]
       }
@@ -972,7 +972,7 @@
       {
         "common": true,
         "extension": "ps",
-        "mime_types": [
+        "media_types": [
           "application/postscript"
         ]
       }
@@ -988,7 +988,7 @@
       {
         "common": false,
         "extension": "rgb",
-        "mime_types": [
+        "media_types": [
           "image/x-rgb"
         ]
       }
@@ -1004,7 +1004,7 @@
       {
         "common": false,
         "extension": "ra",
-        "mime_types": [
+        "media_types": [
           "audio/x-pn-realaudio",
           "audio/x-realaudio"
         ]
@@ -1021,7 +1021,7 @@
       {
         "common": false,
         "extension": "ram",
-        "mime_types": [
+        "media_types": [
           "audio/x-pn-realaudio"
         ]
       }
@@ -1039,7 +1039,7 @@
       {
         "common": true,
         "extension": "rtf",
-        "mime_types": [
+        "media_types": [
           "application/rtf",
           "text/rtf"
         ]
@@ -1055,7 +1055,7 @@
       {
         "common": true,
         "extension": "svg",
-        "mime_types": [
+        "media_types": [
           "image/svg+xml"
         ]
       }
@@ -1074,7 +1074,7 @@
       {
         "common": false,
         "extension": "snd",
-        "mime_types": [
+        "media_types": [
           "audio/basic"
         ]
       }
@@ -1090,14 +1090,14 @@
       {
         "common": true,
         "extension": "tsv",
-        "mime_types": [
+        "media_types": [
           "text/tab-separated-values"
         ]
       },
       {
         "common": false,
         "extension": "tab",
-        "mime_types": [
+        "media_types": [
           "text/tab-separated-values"
         ]
       }
@@ -1114,14 +1114,14 @@
       {
         "common": true,
         "extension": "txt",
-        "mime_types": [
+        "media_types": [
           "text/plain"
         ]
       },
       {
         "common": true,
         "extension": "text",
-        "mime_types": [
+        "media_types": [
           "text/plain"
         ]
       }
@@ -1138,14 +1138,14 @@
       {
         "common": true,
         "extension": "tif",
-        "mime_types": [
+        "media_types": [
           "image/tiff"
         ]
       },
       {
         "common": true,
         "extension": "tiff",
-        "mime_types": [
+        "media_types": [
           "image/tiff"
         ]
       }
@@ -1163,7 +1163,7 @@
       {
         "common": true,
         "extension": "wav",
-        "mime_types": [
+        "media_types": [
           "audio/x-wav",
           "audio/wav",
           "audio/wave"
@@ -1181,7 +1181,7 @@
       {
         "common": true,
         "extension": "webm",
-        "mime_types": [
+        "media_types": [
           "video/webm"
         ]
       }
@@ -1197,7 +1197,7 @@
       {
         "common": true,
         "extension": "weba",
-        "mime_types": [
+        "media_types": [
           "audio/webm"
         ]
       }
@@ -1213,7 +1213,7 @@
       {
         "common": true,
         "extension": "webp",
-        "mime_types": [
+        "media_types": [
           "image/webp"
         ]
       }
@@ -1229,7 +1229,7 @@
       {
         "common": false,
         "extension": "xbm",
-        "mime_types": [
+        "media_types": [
           "image/x-xbitmap"
         ]
       }
@@ -1245,7 +1245,7 @@
       {
         "common": false,
         "extension": "xpm",
-        "mime_types": [
+        "media_types": [
           "image/x-xpixmap"
         ]
       }
