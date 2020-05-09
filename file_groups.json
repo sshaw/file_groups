@@ -1208,6 +1208,24 @@
     "files": [
       {
         "common": true,
+        "extension": "wpd",
+        "media_types": [
+          "application/vnd.wordperfect"
+        ]
+      }
+    ],
+    "name": "WordPerfect",
+    "categories": [
+      "word_processing"
+    ],
+    "tags": [
+      "word_perfect"
+    ]
+  },
+  {
+    "files": [
+      {
+        "common": true,
         "extension": "webm",
         "media_types": [
           "video/webm"
