@@ -7,6 +7,7 @@ The groups are defined in `file_groups.json`.
 ## Programming Language Libraries
 
 * [JavaScript](js)
+* [Perl](perl)
 * [Ruby](ruby)
 
 These are generated automatically. See [Generating](#generating).

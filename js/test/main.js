@@ -15,7 +15,7 @@ const fileGroups = require('../'), assert = require('assert');
   assert(Array.isArray(fileGroups[prop].extensions()), prop);
   assert(fileGroups[prop].extensions().length >= 1, prop);
 
-  assert(Array.isArray(fileGroups.wordProcessing.mediaTypes()), prop);
+  assert(Array.isArray(fileGroups[prop].mediaTypes()), prop);
   assert(fileGroups[prop].mediaTypes().length >= 1, prop);
 });
 

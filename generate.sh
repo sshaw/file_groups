@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 error()
 {
@@ -22,7 +23,11 @@ fi
 if [ "$root" == "js" ]; then
     output=index.js
 elif [ "$root" == "ruby" ]; then
+    [ ! -e ruby/lib ] && mkdir ruby/lib
     output=lib/file_groups.rb
+elif [ "$root" == "perl" ]; then
+    [ ! -e perl/lib ] && mkdir -p perl/lib/File
+    output=lib/File/Groups.pm
 else
     error "unknown language '$root'" 2
 fi
