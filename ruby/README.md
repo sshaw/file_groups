@@ -19,9 +19,9 @@ Let's look at some examples.
 ```rb
 require "file_groups"
 
-FileGroups.image.extensions  # ["bmp", "gif", "ico", "jpeg", ... ]
+FileGroups.image.extensions   # ["bmp", "gif", "ico", "jpeg", ... ]
 FileGroups.image.media_types  # ["image/bmp", "image/x-ms-bmp", "image/gif", ... ]
-FileGroups.video.extensions  # ["asf", "mov", "qt", "movie", ... ]
+FileGroups.video.extensions   # ["asf", "mov", "qt", "movie", ... ]
 FileGroups.video.media_types  # ["video/x-ms-asf", "video/quicktime", ... ]
 ```
 
@@ -44,13 +44,13 @@ Retrieve a list of file extensions or MIME types used by spreadsheets
 require "file_groups"
 
 FileGroups.spreadsheet.extensions   # ["csv", "xls", "xlsx", "xlt", ... ]
-FileGroups.spreadsheet.media_types   # ["text/csv", "application/vnd.ms-excel", ... ]
+FileGroups.spreadsheet.media_types  # ["text/csv", "application/vnd.ms-excel", ... ]
 ```
 
 If you only want values specific to Microsoft Excel:
 ```rb
 FileGroups.spreadsheet.excel.extensions   # ["xls", "xlsx", "xlt", "xltx", "xlw"]
-FileGroups.spreadsheet.excel.media_types   # ["application/vnd.ms-excel", ... ]
+FileGroups.spreadsheet.excel.media_types  # ["application/vnd.ms-excel", ... ]
 ```
 
 Or for OpenOffice:
@@ -63,13 +63,9 @@ By default these only return common extensions, to return all:
 FileGroups.spreadsheet.excel.extensions(true) # ["xls", "xlsx", "xlt", "xltx", ... ]
 ```
 
-### All Filters
+### Everything Else
 
-For a complete lists see the documentation
-
-## Contributing
-
-See https://github.com/sshaw/file_groups (or ../README.md)
+See [the list of categories and tags](https://github.com/sshaw/file_groups/blob/master/README.md#programming-language-libraries).
 
 ## Author
 

@@ -26,6 +26,23 @@ To generate a library run the following from the project's root directory:
 Where `language_directory` is the desired programming language's directory.
 This must contain a file named `template.erb` which is used to generate the source code.
 
+## Groups
+
+Each group and their tags (if any) contain file extensions and media types.
+
+| Category           | Tags                                                      |
+|--------------------|-----------------------------------------------------------|
+| Audio              |                                                           |
+| Diagramming        |                                                           |
+| Document`          | PDF + tags from Presentation, Spreadsheet, Word Processor |
+| Graphics Editor    | Raster, Vector                                            |
+| Image              | Raster, Vector, Web                                       |
+| Presentation       | Impress, Keynote, PowerPoint                              |
+| Project Management |                                                           |
+| Spreadsheet        | Calc, Excel, Numbers                                      |
+| Video              |                                                           |
+| Word Processor     | Word, Word Perfect, Pages, Writer                         |
+
 ## Author
 
 Skye Shaw (skye.shaw -AT- gmail)

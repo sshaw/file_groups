@@ -63,24 +63,9 @@ By default these only return common extensions, to return all:
 fileGroups.spreadsheet.excel.extensions(true); // ["xls", "xlsx", "xlt", "xltx", ... ]
 ```
 
-### Office Productivity Files
+### Everything Else
 
-Retrieve a list of file extensions or MIME types used by common office software
-
-```js
-const fileGroups = require('file-groups');
-
-fileGroups.document.extensions();  // ["csv", "key", "key-tef", "xls", "xlsx", "xlt ... ]
-fileGroups.document.mediaTypes();   // ["text/csv", "application/vnd.ms-excel", ... ]
-```
-
-### Other Filters
-
-See the documentation for more.
-
-## Contributing
-
-See https://github.com/sshaw/file_groups (or ../README.md)
+See [the list of categories and tags](https://github.com/sshaw/file_groups/blob/master/README.md#programming-language-libraries).
 
 ## Author
 
