@@ -9,7 +9,7 @@ module.exports = Object.create({}, {
       get: () => Object.create({
           extensions: (all = false) =>
             (all ? <%= Util.extensions(record["files"], false) %> : <%= Util.extensions(record["files"], true) %>),
-          mimeTypes: (all = false) =>
+          mediaTypes: (all = false) =>
             (all ? <%= Util.mime_types(record["files"], false) %> : <%= Util.mime_types(record["files"], true) %>),
         }, {
           <% record["tags"] && record["tags"].each do |tag, files| -%>
@@ -17,7 +17,7 @@ module.exports = Object.create({}, {
                 get: () => ({
                  extensions: (all = false) =>
                    (all ? <%= Util.extensions(files, false) %> : <%= Util.extensions(files, true) %>),
-                 mimeTypes: (all = false) =>
+                 mediaTypes: (all = false) =>
                    (all ? <%= Util.mime_types(files, false) %> : <%= Util.mime_types(files, true) %>),
               })
             },

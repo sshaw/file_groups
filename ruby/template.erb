@@ -15,7 +15,7 @@ module FileGroups
         all ? <%= Util.extensions(record["files"], false) %> : <%= Util.extensions(record["files"], true) %>
       end
 
-      def o.mime_types(all = false)
+      def o.media_types(all = false)
         all ? <%= Util.mime_types(record["files"], false) %> : <%= Util.mime_types(record["files"], true) %>
       end
 
@@ -27,7 +27,7 @@ module FileGroups
             all ? <%= Util.extensions(files, false) %> : <%= Util.extensions(files, true) %>
           end
 
-          def tag.mime_types(all = false)
+          def tag.media_types(all = false)
             all ? <%= Util.mime_types(files, false) %> : <%= Util.mime_types(files, true) %>
           end
 
