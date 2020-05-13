@@ -28,13 +28,13 @@ This must contain a file named `template.erb` which is used to generate the sour
 
 ## Groups
 
-Each group and their tags (if any) contain file extensions and media types.
+Each category and its tags (if any) contain file extensions and media types.
 
 | Category           | Tags                                                      |
 |--------------------|-----------------------------------------------------------|
 | Audio              |                                                           |
 | Diagramming        |                                                           |
-| Document`          | PDF + tags from Presentation, Spreadsheet, Word Processor |
+| Document           | PDF + tags from Presentation, Spreadsheet, Word Processor |
 | Graphics Editor    | Raster, Vector                                            |
 | Image              | Raster, Vector, Web                                       |
 | Presentation       | Impress, Keynote, PowerPoint                              |
