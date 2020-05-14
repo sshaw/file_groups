@@ -1,7 +1,7 @@
 {
   "name": "file-groups",
-  "version": "0.0.1",
-  "description": "File extensions and MIME types, grouped by application and type. Useful when you need to process or restrict processing to certain types of files.",
+  "version": "0.1.0",
+  "description": "File extensions and media types, grouped by application and type. Useful when you need to process or restrict processing to certain types of files.",
   "main": "index.js",
   "scripts": {
     "test": "node test/main.js"
