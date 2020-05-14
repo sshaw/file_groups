@@ -1,7 +1,7 @@
 use Test::More;
 use File::Groups;
 
-for my $category qw(word_processing spreadsheet video image graphics_editor) {
+for my $category (qw(word_processing spreadsheet video image graphics_editor)) {
   isa_ok(File::Groups->$category->extensions, 'ARRAY', $category);
   ok(scalar @{File::Groups->$category->extensions} > 1, $category);
   ok(scalar @{File::Groups->$category->extensions} < scalar @{File::Groups->$category->extensions(1)}, "$category all");
@@ -11,7 +11,7 @@ for my $category qw(word_processing spreadsheet video image graphics_editor) {
   ok(scalar @{File::Groups->$category->media_types} <= scalar @{File::Groups->$category->media_types(1)}, "$category all");
 }
 
-for my $category qw(project_management presentation) {
+for my $category (qw(project_management presentation)) {
   isa_ok(File::Groups->$category->extensions, 'ARRAY', $category);
   ok(scalar @{File::Groups->$category->extensions} > 1, $category);
 
