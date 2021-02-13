@@ -21,7 +21,8 @@ Gem::Specification.new do |spec|
   end
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
-  spec.require_paths = ["lib"]
+  spec.extra_rdoc_files = %w[README.md]
+  spec.files         = Dir["lib/**/*.rb"] + spec.extra_rdoc_files
   spec.metadata      = {
     "changelog_uri" => "https://github.com/sshaw/file_groups/blob/master/Changes",
     "bug_tracker_uri" => "https://github.com/sshaw/file_groups/issues",
