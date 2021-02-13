@@ -44,8 +44,13 @@ Retrieve a list of file extensions or media types used by spreadsheets:
 ```rb
 require "file_groups"
 
-FileGroups.spreadsheet.extensions   # ["csv", "xls", "xlsx", "xlt", ... ]
-FileGroups.spreadsheet.media_types  # ["text/csv", "application/vnd.ms-excel", ... ]
+FileGroups.spreadsheet.extensions       # ["csv", "xls", "xlsx", "xlt", ... ]
+FileGroups.spreadsheet.media_types      # ["text/csv", "application/vnd.ms-excel", ... ]
+```
+
+If you only want values specific to CSVs:
+```rb
+FileGroups.spreadsheet.csv.media_types  # ["text/csv", "text/comma-separated-values" ]
 ```
 
 If you only want values specific to Microsoft Excel:

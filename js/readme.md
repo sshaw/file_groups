@@ -48,6 +48,11 @@ fileGroups.spreadsheet.extensions();  // ["csv", "xls", "xlsx", "xlt", ... ]
 fileGroups.spreadsheet.mediaTypes();  // ["text/csv", "application/vnd.ms-excel", ... ]
 ```
 
+If you only want values specific to CSVs:
+```js
+fileGroups.spreadsheet.csv.mediaTypes();  // ["text/csv", "text/comma-separated-values" ]
+```
+
 If you only want values specific to Microsoft Excel:
 ```js
 fileGroups.spreadsheet.excel.extensions();  // ["xls", "xlsx", "xlt", "xltx", "xlw"]

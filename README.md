@@ -40,7 +40,7 @@ Each category and its tags (if any) contain file extensions and media types.
 | Image              | Raster, Vector, Web                                       |
 | Presentation       | Impress, Keynote, PowerPoint                              |
 | Project Management |                                                           |
-| Spreadsheet        | Calc, Excel, Numbers                                      |
+| Spreadsheet        | Calc, Excel, Numbers, CSV                                 |
 | Video              |                                                           |
 | Word Processor     | Word, Word Perfect, Pages, Writer                         |
 
